@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="03bd7a5f-fa8c-41c1-8e88-2a0f0801f0f4" name="Changes" comment="Add .gitignore file to exclude IDE and build artifacts">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/database.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/data/annotations/AutoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/data/di/DaoModule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/data/di/DataComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/data/di/DatabaseModule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/data/di/RepositoryModule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/data/models/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/data/repositories/RepositoryFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/data/repositories/user/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/data/repositories/user/UserRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/screens/ScreenAutoRegistrar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/screens/StateManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/screens/annotations/Screen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/screens/bai1/Bai1Screen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/screens/bai2/Bai2Screen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/screens/bai3/Bai3Screen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/screens/bai4/Bai4Screen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/screens/home/HomeScreen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V20250623100819__create_user_table.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V20250623102929__add_example_users.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="module-info" />
+        <option value="Interface" />
+        <option value="AnnotationType" />
+        <option value="Kotlin Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "EdwardLTC"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/EdwardLTC/java-swing",
+    "accountId": "055bfd82-ce4f-4af8-a068-8ea8596820a3"
+  }
+}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2yp2GK4CPirHeKL6w3pVE3AsSJi" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/java/swing/src/main/java/org/example/screens&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.LRUPopupBuilder$1/&quot;: [
+      &quot;SQLite&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\java\swing\src\main\java\org\example\screens" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\java\swing\data" />
+      <recent name="F:\java\swing\src\main\java\org\example\data" />
+      <recent name="F:\java\swing\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+      <module name="swing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.screens.home.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.23654.189" />
+        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-IU-243.23654.189" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="03bd7a5f-fa8c-41c1-8e88-2a0f0801f0f4" name="Changes" comment="" />
+      <created>1750517099435</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1750517099435</updated>
+      <workItem from="1750517100751" duration="70000" />
+      <workItem from="1750519018183" duration="178000" />
+      <workItem from="1750520386784" duration="299000" />
+      <workItem from="1750525309426" duration="507000" />
+      <workItem from="1750570313310" duration="340000" />
+      <workItem from="1750572672651" duration="328000" />
+      <workItem from="1750574845835" duration="738000" />
+      <workItem from="1750578548960" duration="2953000" />
+      <workItem from="1750643908611" duration="40000" />
+      <workItem from="1750645037849" duration="2494000" />
+      <workItem from="1750647897473" duration="274000" />
+      <workItem from="1750649050386" duration="1991000" />
+      <workItem from="1750651696988" duration="1142000" />
+      <workItem from="1750658500444" duration="103000" />
+      <workItem from="1750661554233" duration="150000" />
+      <workItem from="1750661869317" duration="26000" />
+      <workItem from="1750661939464" duration="436000" />
+      <workItem from="1750662492892" duration="688000" />
+      <workItem from="1750669504265" duration="259000" />
+      <workItem from="1751013821781" duration="3483000" />
+      <workItem from="1751513965216" duration="84000" />
+      <workItem from="1751533287597" duration="155000" />
+      <workItem from="1751891338719" duration="2234000" />
+      <workItem from="1752896248146" duration="401000" />
+    </task>
+    <task id="LOCAL-00001" summary="Add .gitignore file to exclude IDE and build artifacts">
+      <option name="closed" value="true" />
+      <created>1752896355691</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1752896355691</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Add .gitignore file to exclude IDE and build artifacts">
+      <option name="closed" value="true" />
+      <created>1752896436056</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1752896436056</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Add .gitignore file to exclude IDE and build artifacts">
+      <option name="closed" value="true" />
+      <created>1752896508565</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1752896508565</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add .gitignore file to exclude IDE and build artifacts" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add .gitignore file to exclude IDE and build artifacts" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
