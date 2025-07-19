@@ -39,4 +39,4 @@ build/
 
 .idea
 /.idea/
-/data/
+/data/database.sqlite3
