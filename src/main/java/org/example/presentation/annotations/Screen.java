@@ -1,4 +1,4 @@
-package org.example.screens.annotations;
+package org.example.presentation.annotations;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

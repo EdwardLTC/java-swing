@@ -1,8 +1,8 @@
 package org.example;
 
 import org.example.data.repositories.RepositoryFactory;
-import org.example.screens.ScreenAutoRegistrar;
-import org.example.screens.StateManager;
+import org.example.presentation.screens.ScreenAutoRegistrar;
+import org.example.presentation.screens.StateManager;
 
 import javax.swing.*;
 import java.awt.*;

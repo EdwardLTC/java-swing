@@ -1,4 +1,4 @@
-package org.example.screens;
+package org.example.presentation.screens;
 
 import org.jetbrains.annotations.NotNull;
 
