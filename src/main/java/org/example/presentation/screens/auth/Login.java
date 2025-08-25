@@ -1,15 +1,13 @@
-package org.example.screens.auth.login;
+package org.example.presentation.screens.auth;
 
-import org.example.components.RoundedBorder;
-import org.example.screens.StateManager;
-import org.example.screens.annotations.Screen;
-import org.example.screens.dashboard.Dashboard;
+import org.example.presentation.components.RoundedBorder;
+import org.example.presentation.screens.StateManager;
+import org.example.presentation.annotations.Screen;
+import org.example.presentation.screens.Dashboard;
 
 import javax.swing.*;
 import javax.swing.border.Border;
 import java.awt.*;
-import java.awt.event.FocusEvent;
-import java.awt.event.FocusListener;
 
 @Screen(isDefault = true)
 public class Login extends JPanel {

@@ -1,6 +1,6 @@
-package org.example.screens;
+package org.example.presentation.screens;
 
-import org.example.screens.annotations.Screen;
+import org.example.presentation.annotations.Screen;
 
 import javax.swing.*;
 import java.util.Set;
