@@ -20,6 +20,15 @@ public class Dashboard extends JPanel {
 
 //        leftPanel.setPreferredSize(new Dimension(200, 0));
 
+        panel1 = new JPanel();
+        topPanel = new JPanel();
+        leftPanel = new JPanel();
+        rightPanel = new JPanel();
+        button1 = new JButton("Button 1");
+        button2 = new JButton("Button 2");
+        button3 = new JButton("Button 3");
+
+
         topPanel.setPreferredSize(new Dimension(100, 100));
         leftPanel.setPreferredSize(new Dimension(200, 100));
         setLayout(new BorderLayout());

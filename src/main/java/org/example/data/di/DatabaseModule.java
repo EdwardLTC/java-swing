@@ -6,6 +6,7 @@ import dagger.Provides;
 import org.flywaydb.core.Flyway;
 
 import javax.inject.Singleton;
+import java.io.File;
 
 @Module
 public class DatabaseModule {
@@ -14,6 +15,16 @@ public class DatabaseModule {
 
     public DatabaseModule() {
         String dbPath = "data/database.sqlite3";
+
+        File dbFile = new File(dbPath);
+        File parentDir = dbFile.getParentFile();
+        if (parentDir != null && !parentDir.exists()) {
+            boolean created = parentDir.mkdirs();
+            if (!created) {
+                throw new RuntimeException("Failed to create database directory: " + parentDir.getAbsolutePath());
+            }
+        }
+
         dbUrl = "jdbc:sqlite:" + dbPath;
 
         Flyway flyway = Flyway.configure()
