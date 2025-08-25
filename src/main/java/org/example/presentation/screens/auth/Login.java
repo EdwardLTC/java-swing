@@ -1,9 +1,9 @@
-package org.example.presentation.screens.auth.login;
+package org.example.presentation.screens.auth;
 
 import org.example.presentation.components.RoundedBorder;
 import org.example.presentation.screens.StateManager;
 import org.example.presentation.annotations.Screen;
-import org.example.presentation.screens.dashboard.Dashboard;
+import org.example.presentation.screens.Dashboard;
 
 import javax.swing.*;
 import javax.swing.border.Border;
