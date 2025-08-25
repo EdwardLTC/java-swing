@@ -20,15 +20,6 @@ public class Login extends JPanel {
     public Login() {
 
         setLayout(new BorderLayout());
-
-        panel1 = new JPanel();
-        userNameTextField = new JTextField();
-        passwordField1 = new JPasswordField();
-        loginButton = new JButton("Login");
-        spacer = new JPanel();
-
-//        panel1.setPreferredSize(new Dimension(800, 400));
-
         add(panel1, BorderLayout.CENTER);
 
         spacer.setPreferredSize(new Dimension(0, 40));
