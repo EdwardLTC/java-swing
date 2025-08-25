@@ -15,6 +15,14 @@ CREATE TABLE categories
     FOREIGN KEY (parent_id) REFERENCES categories (id)
 );
 
+-- Colors Table
+CREATE TABLE colors
+(
+    id       INTEGER PRIMARY KEY AUTOINCREMENT,
+    name     TEXT NOT NULL UNIQUE,
+    hex_code TEXT
+);
+
 -- Products Table (Shoes)
 CREATE TABLE products
 (
@@ -25,16 +33,9 @@ CREATE TABLE products
     brand_id    INTEGER NOT NULL,
     category_id INTEGER NOT NULL,
     created_at  DATETIME DEFAULT CURRENT_TIMESTAMP,
+    deleted_at  DATETIME,
     FOREIGN KEY (brand_id) REFERENCES brands (id),
     FOREIGN KEY (category_id) REFERENCES categories (id)
-);
-
--- Colors Table
-CREATE TABLE colors
-(
-    id       INTEGER PRIMARY KEY AUTOINCREMENT,
-    name     TEXT NOT NULL UNIQUE,
-    hex_code TEXT
 );
 
 -- Sizes Table
@@ -46,8 +47,8 @@ CREATE TABLE sizes
     gender  CHAR(1) CHECK (gender IN ('M', 'F', 'U'))
 );
 
--- Inventory Table (Variant Management)
-CREATE TABLE inventory
+-- Variants Table
+CREATE TABLE variants
 (
     id         INTEGER PRIMARY KEY AUTOINCREMENT,
     product_id INTEGER NOT NULL,
@@ -88,15 +89,15 @@ CREATE TABLE order_items
 (
     id           INTEGER PRIMARY KEY AUTOINCREMENT,
     order_id     INTEGER NOT NULL,
-    inventory_id INTEGER NOT NULL,
+    variant_id INTEGER NOT NULL,
     quantity     INTEGER NOT NULL CHECK (quantity > 0),
     unit_price   REAL    NOT NULL CHECK (unit_price >= 0),
     FOREIGN KEY (order_id) REFERENCES orders (id),
-    FOREIGN KEY (inventory_id) REFERENCES inventory (id)
+    FOREIGN KEY (variant_id) REFERENCES variants (id)
 );
 
 -- Indexes for Performance
 CREATE INDEX idx_products_brand ON products (brand_id);
-CREATE INDEX idx_inventory_product ON inventory (product_id);
+CREATE INDEX idx_variants_product ON variants (product_id);
 CREATE INDEX idx_orders_customer ON orders (customer_id);
 CREATE INDEX idx_order_items_order ON order_items (order_id);

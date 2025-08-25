@@ -3,8 +3,8 @@ package org.example.data.models;
 import com.j256.ormlite.field.DatabaseField;
 import com.j256.ormlite.table.DatabaseTable;
 
-@DatabaseTable(tableName = "inventory")
-public class InventoryItem {
+@DatabaseTable(tableName = "variants")
+public class Variant {
     @DatabaseField(generatedId = true)
     private int id;
 
@@ -23,7 +23,7 @@ public class InventoryItem {
     @DatabaseField(canBeNull = false, unique = true)
     private String sku;
 
-    public InventoryItem() {}
+    public Variant() {}
 
     // Getters and setters
     public int getId() { return id; }

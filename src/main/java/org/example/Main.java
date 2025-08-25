@@ -7,6 +7,7 @@ import org.example.presentation.screens.StateManager;
 import javax.swing.*;
 import java.awt.*;
 
+
 public class Main {
 
     public static void main(String[] args) {

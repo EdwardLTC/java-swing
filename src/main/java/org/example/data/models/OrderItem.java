@@ -12,7 +12,7 @@ public class OrderItem {
     private Order order;
 
     @DatabaseField(foreign = true, canBeNull = false)
-    private InventoryItem inventoryItem;
+    private Variant variant;
 
     @DatabaseField(canBeNull = false)
     private int quantity;
@@ -26,8 +26,8 @@ public class OrderItem {
     public int getId() { return id; }
     public Order getOrder() { return order; }
     public void setOrder(Order order) { this.order = order; }
-    public InventoryItem getInventoryItem() { return inventoryItem; }
-    public void setInventoryItem(InventoryItem inventoryItem) { this.inventoryItem = inventoryItem; }
+    public Variant getVariant() { return variant; }
+    public void setVariant(Variant variant) { this.variant = variant; }
     public int getQuantity() { return quantity; }
     public void setQuantity(int quantity) { this.quantity = quantity; }
     public double getUnitPrice() { return unitPrice; }

@@ -1,6 +1,10 @@
 package org.example.data.models;
+import com.j256.ormlite.dao.ForeignCollection;
 import com.j256.ormlite.field.DatabaseField;
+import com.j256.ormlite.field.ForeignCollectionField;
 import com.j256.ormlite.table.DatabaseTable;
+
+import java.sql.Date;
 
 @DatabaseTable(tableName = "products")
 public class Product {
@@ -16,14 +20,20 @@ public class Product {
     @DatabaseField(canBeNull = false)
     private double price;
 
-    @DatabaseField(foreign = true, canBeNull = false)
+    @DatabaseField(columnName = "created_at")
+    private Date createdAt;
+
+    @DatabaseField(columnName = "deleted_at")
+    private Date deletedAt;
+
+    @DatabaseField(foreign = true, canBeNull = false, foreignAutoRefresh = true)
     private Brand brand;
 
-    @DatabaseField(foreign = true, canBeNull = false)
+    @DatabaseField(foreign = true, canBeNull = false, foreignAutoRefresh = true)
     private Category category;
 
-    @DatabaseField
-    private String createdAt;
+    @ForeignCollectionField(eager = false)
+    private ForeignCollection<Variant> variants;
 
     public Product() {}
 
@@ -39,5 +49,9 @@ public class Product {
     public void setBrand(Brand brand) { this.brand = brand; }
     public Category getCategory() { return category; }
     public void setCategory(Category category) { this.category = category; }
-    public String getCreatedAt() { return createdAt; }
+    public Date getCreatedAt() { return createdAt; }
+    public void setDeletedAt(Date deletedAt) { this.deletedAt = deletedAt; }
+    public Date getDeletedAt() { return deletedAt; }
+
+    public ForeignCollection<Variant> getVariants() { return variants; }
 }

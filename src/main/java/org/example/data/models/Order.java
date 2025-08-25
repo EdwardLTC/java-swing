@@ -18,7 +18,7 @@ public class Order {
     private double totalAmount;
 
     @DatabaseField(canBeNull = false)
-    private String status; // PENDING, PAID, SHIPPED, etc.
+    private String status; // 'PENDING', 'PAID', 'SHIPPED', 'DELIVERED', 'CANCELLED'
 
     public Order() {}
 
